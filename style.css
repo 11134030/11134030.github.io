@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Zen+Antique&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Zen Antique', serif;
+    font-family: 'Kaushan Script', cursive;
+    background-color: #fffbe6;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+h1{
+ color: rgb(132, 132, 50);
+}
+
+div.mha{
+    color: #605829;
+    margin-right: 480px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+div{
+margin-top: 20px;
+font-size: 30px;
+}
+main{
+    color: aqua;
+    padding-top: 100px;
+    padding-left: 20px;
+    width: 1280px; height: 720px;
+    background-image: url(MHA官網/封面);
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
